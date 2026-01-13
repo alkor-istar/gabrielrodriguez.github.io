@@ -7,7 +7,7 @@ export default function Badge() {
     });
 
     return (
-        <div className="px-4 py-2 pr-0 mr-4 w-72 bg-fuchsia-500 bg-opacity-10 text-fuchsia-500 rounded-lg border border-fuchsia-500 border-opacity-30">
+        <div className="px-4 py-2 pr-0 mr-4 w-72 bg-accent bg-opacity-10 text-accent rounded-lg border border-accent border-opacity-30">
             <span className="typewriter font-departure-mono">{text}</span>
         </div>
     );

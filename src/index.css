@@ -13,6 +13,56 @@
   font-display: swap;
 }
 
+@layer base {
+  :root {
+    /* Base theme (default) */
+    --color-bg: 11 11 11;
+    --color-text: 229 231 235;
+    --color-muted: 107 114 128;
+
+    --color-primary: 249 115 22;
+    --color-accent: 217 70 239;
+    --color-border: 31 41 55;
+  }
+
+  [data-theme="React"] {
+    /* Base theme (default) */
+    --color-bg: 11 11 11;
+    --color-text: 229 231 235;
+    --color-muted: 107 114 128;
+
+    --color-primary: 249 115 22;
+    /* orange-500 */
+    --color-accent: 217 70 239;
+    /* fuchsia-500 */
+    --color-border: 31 41 55;
+  }
+
+
+  [data-theme="light"] {
+    --color-bg: 255 255 255;
+    --color-text: 17 24 39;
+    --color-muted: 75 85 99;
+
+    --color-primary: 249 115 22;
+    --color-accent: 147 51 234;
+    --color-border: 229 231 235;
+  }
+
+  [data-theme="cyber"] {
+    --color-bg: 3 7 18;
+    --color-text: 224 231 255;
+    --color-muted: 148 163 184;
+
+    --color-primary: 34 211 238;
+    /* cyan */
+    --color-accent: 236 72 153;
+    /* pink */
+    --color-border: 30 41 59;
+  }
+}
+
+
 .font-departure-mono {
   font-family: 'Departure Mono' !important;
 }
@@ -42,8 +92,8 @@ p>a {
 }
 
 body {
-  background: #0a0a0a;
   overflow-x: hidden;
+  background-color: rgb(var(--color-bg));
 }
 
 .fade-in {
@@ -92,7 +142,7 @@ body {
 
 .gradient-text {
   /* background: linear-gradient(135deg, #ff6b35 0%, #10b981 100%); */
-  background: linear-gradient(135deg, #ffa535 0%, #c301c6 100%);
+  background: linear-gradient(135deg, rgb(var(--color-primary)) 0%, rgb(var(--color-accent)) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -110,7 +160,7 @@ body {
   inset: 0;
   border-radius: 0.5rem;
   padding: 2px;
-  background: linear-gradient(135deg, #ff6b35, #c301c6);
+  background: linear-gradient(135deg, rgb(var(--color-primary)), rgb(var(--color-accent)));
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -149,7 +199,7 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, #ff6b35, #c301c6);
+  background: linear-gradient(90deg, rgb(var(--color-primary)), rgb(var(--color-accent)));
   transition: width 0.3s ease;
 }
 

@@ -18,9 +18,9 @@ export default function Navbar() {
                 <div className="flex justify-between items-center">
                     {/* Logo */}
                     <div className="text-xl font-bold font-mono">
-                        <span className="text-orange-500">&lt;</span>{" "}
+                        <span className="text-primary">&lt;</span>{" "}
                         <span className="gradient-text">GR</span>{" "}
-                        <span className="text-orange-500">/&gt;</span>
+                        <span className="text-primary">/&gt;</span>
                     </div>
 
                     {/* Navigation */}
@@ -33,8 +33,8 @@ export default function Navbar() {
                                     key={link.id}
                                     href={link.href}
                                     className={`nav-link transition-colors ${isActive
-                                        ? "text-orange-500"
-                                        : "text-gray-400 hover:text-orange-500"
+                                        ? "text-primary"
+                                        : "text-gray-400 hover:text-primary"
                                         }`}
                                 >
                                     {link.label}

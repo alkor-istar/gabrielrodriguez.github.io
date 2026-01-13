@@ -1,9 +1,9 @@
 export const skills = {
     backend: [
         {
-            name: "PHP",
-            icon: "https://cdn.simpleicons.org/php?viewbox=auto&size=20",
-            class: "bg-indigo-500 text-indigo-500 border-indigo-500"
+            name: "TypeScript",
+            icon: "https://cdn.simpleicons.org/typescript?viewbox=auto&size=20",
+            class: "bg-sky-500 text-sky-500 border-sky-500"
         },
         {
             name: "Python",
@@ -21,15 +21,11 @@ export const skills = {
             class: "bg-blue-500 text-blue-500 border-blue-500"
         },
         {
-            name: "Flink",
-            icon: "https://cdn.simpleicons.org/apacheflink?size=20",
-            class: "bg-pink-500 text-pink-500 border-pink-500"
+            name: "PHP",
+            icon: "https://cdn.simpleicons.org/php?viewbox=auto&size=20",
+            class: "bg-indigo-500 text-indigo-500 border-indigo-500"
         },
-        {
-            name: "Redis",
-            icon: "https://cdn.simpleicons.org/redis?viewbox=auto&size=20",
-            class: "bg-red-500 text-red-500 border-red-500"
-        }
+
     ],
     frontend: [
         {
@@ -77,6 +73,16 @@ export const skills = {
             class: "bg-yellow-500 text-yellow-500 border-yellow-500"
 
         },
+        {
+            name: "Flink",
+            icon: "https://cdn.simpleicons.org/apacheflink?size=20",
+            class: "bg-pink-500 text-pink-500 border-pink-500"
+        },
+        {
+            name: "Redis",
+            icon: "https://cdn.simpleicons.org/redis?viewbox=auto&size=20",
+            class: "bg-red-500 text-red-500 border-red-500"
+        }
     ],
     architecture: [
         {

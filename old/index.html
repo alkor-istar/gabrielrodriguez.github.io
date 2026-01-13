@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+
+    <title>Gabriel Rodriguez - Software Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body class="text-gray-100">
+    <!-- Navigation -->
+    <nav aria-hidden="true"
+        class="hidden md:block fixed top-0 w-full bg-black bg-opacity-90 backdrop-blur-sm z-50 border-b border-gray-800">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-xl font-bold font-mono">
+                    <span class="text-orange-500">&lt;</span>
+                    <span class="gradient-text">GR</span>
+                    <span class="text-orange-500">/&gt;</span>
+                </div>
+                <div class="flex gap-8">
+                    <a href="#about" class="nav-link text-gray-300 hover:text-orange-500">About</a>
+                    <a href="#projects" class="nav-link text-gray-300 hover:text-orange-500">Projects</a>
+                    <a href="#skills" class="nav-link text-gray-300 hover:text-orange-500">Skills</a>
+                    <a href="#recommendations" class="nav-link text-gray-300 hover:text-orange-500">Recommendations</a>
+                    <a href="#contact" class="nav-link text-gray-300 hover:text-orange-500">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center px-6 pt-10 md:pt-20">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center gap-2 md:gap-12">
+                <div>
+                    <!-- Profile Image with Coin Flip -->
+                    <div class="fade-in flex-shrink-0">
+                        <div class="relative group">
+                            <div class="absolute -inset-1 rounded-full"></div>
+                            <div class="relative coin-flip">
+                                <img src="assets/photo-normal.jpg" alt="Gabriel - Photo"
+                                    class="front rounded-full object-cover border-4 border-gray-900">
+                                <img src="assets/photo-cyber.jpg" alt="Gabriel - Pixel Art"
+                                    class="back rounded-full object-cover border-4 border-gray-900">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-full mt-4">
+                        <div
+                            class="text-4xl md:text-5xl text-gray-200 text-center mb-4 mt-6 font-heading font-extralight">
+                            Gabriel Rodriguez</div>
+                        <div class="grid grid-cols-2 gap-0 w-72 m-auto text-center font-sans hidden md:block">
+                            <span class="px-4 py-1 text-xs text-fuchsia-500">Problem Solving</span>
+                            <span class="px-4 py-1 text-xs text-orange-500">Communication</span>
+                            <span class="px-4 py-1 text-xs text-orange-600">Ownership</span>
+                            <span class="px-4 py-1 text-xs text-fuchsia-500">Leadership</span>
+                            <span class="px-4 py-1 text-xs text-fuchsia-600">Discipline</span>
+                            <span class="px-4 py-1 text-xs text-orange-600">Pragmatic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Content -->
+                <div class="fade-in text-center md:text-left">
+                    <div class="text-gray-600 mb-4 font-mono">Welcome to my portfolio!</div>
+                    <h1 class="text-5xl md:text-7xl font-bold mb-6">
+                        <span class="text-white font-heading">
+                            <span class="font-mono block text-3xl gradient-text">"Results-focused"</span> Software
+                            Engineer</span>
+                    </h1>
+                    <div class="flex gap-4 justify-center md:justify-start mb-12 flex-wrap">
+                        <span
+                            class="font-departure-mono px-4 py-2 bg-orange-500 bg-opacity-10 text-orange-500 rounded-lg border border-orange-500 border-opacity-30 w-150">
+                            Full-Stack Developer
+                        </span>
+                        <div
+                            class="px-4 py-2 pr-0 mr-4 w-72 bg-fuchsia-500 bg-opacity-10 text-fuchsia-500 rounded-lg border border-fuchsia-500 border-opacity-30">
+                            <span id="role-badge" class="typewriter font-departure-mono"></span>
+                        </div>
+
+                    </div>
+                    <div class="flex gap-4 justify-center md:justify-start mb-12 flex-wrap text-center">
+                        <div class="is-uppercase p-0">
+                            <p class="text-5xl md:text-6xl font-heading text-fuchsia-400 glow animate-pulse">+14</p>
+                            <span>Years of experience</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 justify-center md:justify-start bottom flex-wrap">
+                        <a href="#about"
+                            class="px-8 py-3 bg-gradient-to-r from-orange-500 to-fuchsia-500 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-orange-500/50 transition-all duration-300 transform hover:scale-105">
+                            View My Work
+                        </a>
+                        <a href="assets/cv-en.pdf" download="gabriel-rodriguez-cv.pdf" target="_blank"
+                            class="flex items-center px-8 py-3 text-white box-border border border-default-medium  font-semibold rounded-full hover:shadow-lg hover:shadow-orange-500/50 transition-all duration-300 transform hover:scale-105">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                            Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl font-heading mb-12 text-center fade-in">About Me</h2>
+            <div class="gradient-border p-8 fade-in">
+                <p class="text-gray-300 leading-relaxed text-lg">
+                    <span class="text-2xl font-bold">R</span>esults-oriented, self-taught <span
+                        class="text-fuchsia-500 font-semibold">Full-Stack Software Developer</span> with <span
+                        class="text-orange-500 font-semibold">14 years of experience</span>
+                    delivering robust, scalable systems across industries including e-commerce, telecommunications,
+                    logistics, and digital services.
+                </p>
+                <p class="text-gray-300 leading-relaxed text-lg mt-6">
+                    <span class="text-2xl font-bold">S</span>killed in PHP, Laravel, modern JavaScript frameworks,
+                    relational
+                    databases, and distributed architectures, with a track record of improving system performance,
+                    reliability, and developer workflows.
+                </p>
+                <p class="text-gray-300 leading-relaxed text-lg mt-6">
+                    <span class="text-2xl font-bold">K</span>nown for taking ownership, <span
+                        class="text-fuchsia-500 font-semibold">leading projects end-to-end</span>, collaborating
+                    effectively with stakeholders, and mentoring
+                    teams to achieve high-quality engineering outcomes.
+                </p>
+                <p class="text-gray-300 leading-relaxed text-lg mt-6">
+                    <span class="text-2xl font-bold">D</span>riven by continuous learning, optimisation, and
+                    clean software design, and <span class="text-orange-500 font-semibold">ready to contribute deep
+                        technical expertise and practical
+                        problem-solving</span> to a forward-thinking organization.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-heading mb-12 text-center fade-in">Notable Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 - Nintendo -->
+                <div class="project-card rounded-lg p-6 scale-in overflow-hidden relative">
+                    <h3 class="text-xl font-heading text-white">Nintendo Payment Gateway</h3>
+                    <div class="text-orange-500 font-mono text-sm mt-1">Actindo AG</div>
+
+                    <p class="text-gray-400 mt-2 line-clamp-3">
+                        <span class="text-2xl font-semibold">N</span>intendo was one of our larger customers, and they
+                        had made the decision to move from the Adyen
+                        payment gateway to their own in-house solution. This required integrating a complex payment
+                        process
+                        into an already established business workflow. It was a challenging piece of work with many
+                        dependencies.
+                    </p>
+
+                    <button onclick="openDialog('nintendo-payment-gateway-dialog')"
+                        class="pt-4 text-orange-500 hover:text-fuchsia-400 font-mono text-sm float-right">
+                        View full →
+                    </button>
+                </div>
+
+                <!-- Project - Megafreight Service -->
+                <div class="project-card rounded-lg p-6 scale-in relative">
+                    <h3 class="text-xl font-heading text-white">Netsuite Integrations</h3>
+                    <div class="text-orange-500 font-mono text-sm mt-1">Megafreight Services</div>
+
+                    <p class="text-gray-400 mt-2 line-clamp-3">
+                        <span class="text-2xl font-semibold">D</span>esigned and implemented multiple NetSuite API
+                        integrations using the SOAP protocol in PHP to support core finance operations within a
+                        freight-forwarding environment. The integrations enabled secure...
+                    </p>
+
+                    <button onclick="openDialog('mf-dialog')"
+                        class="pt-4 text-orange-500 hover:text-fuchsia-400 font-mono text-sm float-right">
+                        View full →
+                    </button>
+                </div>
+
+                <!-- Project 2 - Asterisk Voip -->
+                <div class="project-card rounded-lg p-6 scale-in relative">
+                    <h3 class="text-xl font-heading text-white">Hosted VoIP Switchboard</h3>
+                    <div class="text-orange-500 font-mono text-sm mt-1">Switch Telecom</div>
+
+                    <p class="text-gray-400 mt-2 line-clamp-3">
+                        <span class="text-2xl font-semibold">D</span>esigned and developed a fully operational VoIP
+                        switchboard solution using the Asterisk platform,
+                        integrating a custom front-end...
+                    </p>
+
+                    <button onclick="openDialog('asterisk-VoIP-dialog')"
+                        class="pt-4 text-orange-500 hover:text-fuchsia-400 font-mono text-sm float-right">
+                        View full →
+                    </button>
+                </div>
+
+                <!-- Project 3 - Nift -->
+                <div class="project-card rounded-lg p-6 scale-in relative">
+                    <h3 class="text-xl font-heading text-white">New Car Aggregator</h3>
+                    <div class="text-orange-500 font-mono text-sm mt-1">Nift</div>
+
+                    <p class="text-gray-400 mt-2 line-clamp-3">
+                        <span class="text-2xl font-semibold">F</span>ounded and developed a New car aggregation website
+                        with a friend of mine. The site helped a new car
+                        buyer...
+                    </p>
+
+                    <button onclick="openDialog('nift-dialog')"
+                        class="pt-4 text-orange-500 hover:text-fuchsia-400 font-mono text-sm float-right">
+                        View full →
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 bg-black bg-opacity-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-heading mb-12 text-center fade-in">Skills</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Backend -->
+                <div class="slide-in-left">
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-500 font-mono">Backend</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-indigo-500 bg-opacity-10 text-indigo-500 rounded-lg border border-indigo-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/php?viewbox=auto&size=20" alt="PHP" class="">
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-sky-500 bg-opacity-10 text-sky-500 rounded-lg border border-sky-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/go?viewbox=auto&size=20" alt="Go" class="">
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-yellow-500 bg-opacity-10 text-yellow-500 rounded-lg border border-yellow-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/python?viewbox=auto&size=20" alt="Python" class="">
+                            Python
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-red-500 bg-opacity-10 text-red-500 rounded-lg border border-red-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/laravel?viewbox=auto&size=20" alt="Laravel" class="">
+                            Laravel
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-gray-100 bg-opacity-10 text-white rounded-lg border border-gray-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/symfony?viewbox=auto&size=20" alt="Symfony" class="">
+                            Symfony
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-orange-500 bg-opacity-10 text-orange-500 rounded-lg border border-orange-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/mysql?viewbox=auto&size=20" alt="MySQL" class="">
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-blue-500 bg-opacity-10 text-blue-500 rounded-lg border border-blue-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/postgresql?viewbox=auto&size=20" alt="PostgreSQL"
+                                class="">PostgreSQL
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-red-500 bg-opacity-10 text-red-500 rounded-lg border border-red-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/redis?viewbox=auto&size=20" alt="Redis" class="">Redis
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-orange-500 bg-opacity-10 text-orange-500 rounded-lg border border-orange-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/rabbitmq?viewbox=auto&size=20" alt="Rabbit MQ"
+                                class="">Rabbit MQ
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-red-500 bg-opacity-10 text-red-500 rounded-lg border border-red-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/codeigniter?viewbox=auto&size=20" alt="CodeIgniter"
+                                class="">CodeIgniter
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Frontend -->
+                <div class="slide-in-right">
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-500 font-mono">Frontend</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-green-500 bg-opacity-10 text-green-500 rounded-lg border border-green-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/vuedotjs?viewbox=auto&size=20" alt="VueJs"
+                                class="">VueJs
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-cyan-500 bg-opacity-10 text-cyan-500 rounded-lg border border-cyan-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/react?viewbox=auto&size=20" alt="React" class="">React
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-yellow-500 bg-opacity-10 text-yellow-500 rounded-lg border border-yellow-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/javaScript?viewbox=auto&size=20" alt="JavaScript"
+                                class="">JavaScript
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-orange-500 bg-opacity-10 text-orange-500 rounded-lg border border-orange-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/HTML5?viewbox=auto&size=20" alt="HTML5" class="">HTML5
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-fuchsia-500 bg-opacity-10 text-fuchsia-500 rounded-lg border border-fuchsia-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/css?viewbox=auto&size=20" alt="CSS" class="">CSS
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-sky-500 bg-opacity-10 text-sky-500 rounded-lg border border-sky-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/TailwindCSS?viewbox=auto&size=20" alt="Tailwind CSS"
+                                class="">Tailwind CSS
+                        </span>
+                    </div>
+                </div>
+
+                <!-- DevOps & Tools -->
+                <div class="slide-in-left">
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-500 font-mono">DevOps & Tools</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-sky-500 bg-opacity-10 text-sky-500 rounded-lg border border-sky-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/docker?viewbox=auto&size=20" alt="Docker"
+                                class="">Docker
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-red-500 bg-opacity-10 text-red-500 rounded-lg border border-red-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/Git?viewbox=auto&size=20" alt="Git" class="">Git
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-white-500 bg-opacity-10 text-white-500 rounded-lg border border-white-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/gitextensions?viewbox=auto&size=20" alt="CI/CD"
+                                class="">CI/CD
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-orange-500 bg-opacity-10 text-orange-500 rounded-lg border border-orange-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/Asterisk?viewbox=auto&size=20" alt="Asterisk"
+                                class="">Asterisk
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-black-500 bg-opacity-10 text-black-500 rounded-lg border border-black-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/Linux?viewbox=auto&size=20" alt="Linux" class="">Linux
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-yellow-500 bg-opacity-10 text-yellow-500 rounded-lg border border-yellow-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/doctrine?viewbox=auto&size=20" alt="Doctrine"
+                                class="">Doctrine
+                        </span>
+                        <span
+                            class="inline-flex items-center gap-2 rounded-lg tech-badge px-4 py-1 bg-gray-500 bg-opacity-10 text-gray-500 rounded-lg border border-gray-500 border-opacity-30 font-mono">
+                            <img src="https://cdn.simpleicons.org/readthedocs?viewbox=auto&size=20" alt="Doctrine"
+                                class="">Documentation
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Architecture -->
+                <div class="slide-in-right">
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-500 font-mono">Architecture & Patterns</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span
+                            class="tech-badge px-4 py-1 bg-gray-700 bg-opacity-50 text-gray-300 rounded-lg border border-gray-600 font-mono">Microservices</span>
+                        <span
+                            class="tech-badge px-4 py-1 bg-gray-700 bg-opacity-50 text-gray-300 rounded-lg border border-gray-600 font-mono">Event-Driven</span>
+                        <span
+                            class="tech-badge px-4 py-1 bg-gray-700 bg-opacity-50 text-gray-300 rounded-lg border border-gray-600 font-mono">RESTful
+                            Design</span>
+                        <span
+                            class="tech-badge px-4 py-1 bg-gray-700 bg-opacity-50 text-gray-300 rounded-lg border border-gray-600 font-mono">SOLID
+                            Principles</span>
+                        <span
+                            class="tech-badge px-4 py-1 bg-gray-700 bg-opacity-50 text-gray-300 rounded-lg border border-gray-600 font-mono">TDD</span>
+                        <span
+                            class="tech-badge px-4 py-1 bg-gray-700 bg-opacity-50 text-gray-300 rounded-lg border border-gray-600 font-mono">Data
+                            Structures</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-heading mb-12 text-center fade-in">Recommendations</h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 - Stefan Walke -->
+                <div class="project-card rounded-lg p-6 scale-in" style="transition-delay: 0.1s;">
+                    <div class="w-full">
+                        <h3 class="text-xl font-heading mb-1 text-white">Stefan Walke</h3>
+                        <div class="text-orange-500 font-mono text-sm mb-0">Engineering Manager</div>
+                        <div class="text-fuchsia-400 font-mono text-sm mb-2">Actindo AG</div>
+                    </div>
+                    <p class="text-gray-400 mb-4 leading-relaxed">
+                        <span class="text-2xl font-semibold">I</span> had the opportunity to work with Gabriel for over
+                        two
+                        years, during which he consistently proved
+                        himself to be a highly reliable and capable software engineer. Beyond his strong technical
+                        foundation, what stood out most was his sense of ownership...
+
+                    </p>
+                    <button onclick="openDialog('stefan-walke-dialog')"
+                        class="text-orange-500 hover:text-fuchsia-400 font-mono text-sm float-right">
+                        View full →
+                    </button>
+                </div>
+
+                <!-- Project Card 2  - Richards-->
+                <div class="project-card rounded-lg p-6 scale-in" style="transition-delay: 0.1s;">
+                    <div class="w-full">
+                        <h3 class="text-xl font-heading mb-1 text-white">Richards Saji</h3>
+                        <div class="text-orange-500 font-mono text-sm mb-0">QA Lead</div>
+                        <div class="text-fuchsia-400 font-mono text-sm mb-2">Actindo AG</div>
+                    </div>
+                    <p class="text-gray-400 mb-4 leading-relaxed">
+                        <span class="text-2xl font-semibold">I</span> had the opportunity to work with Gabriel, a
+                        dependable and collaborative Senior Backend Engineer,
+                        during our work on the Nintendo project at Actindo, including the major Payment Gateway
+                        migration initiative...
+                    </p>
+
+                    <button onclick="openDialog('richards-saji-dialog')"
+                        class="text-orange-500 hover:text-fuchsia-400 font-mono text-sm float-right float-right">
+                        View full →
+                    </button>
+                </div>
+
+                <!-- Project Card 3 - Mike -->
+                <div class="project-card rounded-lg p-6 scale-in" style="transition-delay: 0.1s;">
+                    <div class="w-full">
+                        <h3 class="text-xl font-heading mb-1 text-white">Mike Rockétt</h3>
+                        <div class="text-orange-500 font-mono text-sm mb-0">Lead Software Developer</div>
+                        <div class="text-fuchsia-400 font-mono text-sm mb-2">Megafreight Services</div>
+                    </div>
+                    <p class="text-gray-400 mb-4 leading-relaxed">
+                        <span class="text-2xl font-semibold">N</span>oel is an excellent backend engineer, and any team
+                        would be lucky to have him...
+                    </p>
+                    <button onclick="openDialog('mike-rockett-dialog')"
+                        class="text-orange-500 hover:text-fuchsia-400 font-mono text-sm float-right">
+                        View full →
+                    </button>
+                </div>
+
+                <!-- Project Card 4 - Stefan Muller -->
+                <div class="project-card rounded-lg p-6 scale-in" style="transition-delay: 0.1s;">
+                    <div class="w-full">
+                        <h3 class="text-xl font-heading mb-1 text-white">Stefan Müller</h3>
+                        <div class="text-orange-500 font-mono text-sm mb-0">Senior Account Director</div>
+                        <div class="text-fuchsia-400 font-mono text-sm mb-2">Thinkproject</div>
+                    </div>
+                    <p class="text-gray-400 mb-4 leading-relaxed">
+                        <span class="text-2xl font-semibold">I</span>'ve had the privilege of knowing Gabriel for many
+                        years, and in that time he has consistently
+                        impressed me with his extraordinary intelligence, discipline, and integrity. Gabriel is one of
+                        the
+                        most meticulous and calculated individuals I’ve ever met...
+                    </p>
+                    <button onclick="openDialog('stefan-muller-dialog')"
+                        class="text-orange-500 hover:text-fuchsia-400 font-mono text-sm float-right">
+                        View full →
+                    </button>
+                </div>
+
+                <!-- Project Card 5 - Lourens -->
+                <div class="project-card rounded-lg p-6 scale-in" style="transition-delay: 0.1s;">
+                    <div class="w-full">
+                        <h3 class="text-xl font-heading mb-1 text-white">Lourens Nortje</h3>
+                        <div class="text-orange-500 font-mono text-sm mb-0">Managing Director</div>
+                        <div class="text-fuchsia-400 font-mono text-sm mb-2">Starbright Solutions</div>
+                    </div>
+
+                    <p class="text-gray-400 mb-4 leading-relaxed">
+                        <span class="text-2xl font-semibold">I</span> had the pleasure of working with Gabriel as a PHP
+                        developer at our company from 2011 to 2014. He
+                        started with no PHP knowledge, but he put in the work to learn it thoroughly...
+                    </p>
+                    <button onclick="openDialog('lourens-nortje-dialog')"
+                        class="text-orange-500 hover:text-fuchsia-400 font-mono text-sm float-right">
+                        View full →
+                    </button>
+                </div>
+
+                <!-- Project Card 6 - Alain -->
+                <div class="project-card rounded-lg p-6 scale-in" style="transition-delay: 0.1s;">
+                    <div class="w-full">
+                        <h3 class="text-xl font-heading mb-1 text-white">Alain Jacquet</h3>
+                        <div class="text-orange-500 font-mono text-sm mb-0">Managing Director</div>
+                        <div class="text-fuchsia-400 font-mono text-sm mb-2">SABEeX</div>
+                    </div>
+                    <p class="text-gray-400 mb-4 leading-relaxed">
+                        <span class="text-2xl font-semibold">W</span>hen I began development of the SABEeX Delivery
+                        Management System, I engaged Gabriel Rodriguez as an energetic
+                        and skilled developer. During his time with SABEeX, he built the original platform...
+                    </p>
+                    <button onclick="openDialog('alain-jacquet-dialog')"
+                        class="text-orange-500 hover:text-fuchsia-400 font-mono text-sm float-right">
+                        View full →
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 bg-black bg-opacity-50">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-heading mb-8 fade-in">Get In Touch</h2>
+            <p class="text-gray-400 text-lg mb-12 fade-in">
+                I'm always open to discussing new projects, opportunities, or technical collaborations.
+            </p>
+
+            <div class="flex flex-col sm:flex-row justify-center gap-8 mb-12 fade-in">
+                <a href="mailto:fgabriel.inbox@gmail.com"
+                    class="flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-lg hover:shadow-lg hover:shadow-orange-500/50 transition-all duration-300 transform hover:scale-105">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                    </svg>
+                    Email
+                </a>
+
+                <a href="https://github.com/alkor-istar" target="_blank" rel="noopener"
+                    class="flex items-center gap-3 px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-all duration-300 transform hover:scale-105">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/gabriel-rodriguez-b47b0920b/" target="_blank" rel="noopener"
+                    class="flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-fuchsia-500 to-fuchsia-600 text-white rounded-lg hover:shadow-lg hover:shadow-fuchsia-500/50 transition-all duration-300 transform hover:scale-105">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                            d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84">
+                        </path>
+                    </svg>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-6 border-t border-gray-800">
+        <div class="max-w-6xl mx-auto text-center text-gray-500 font-mono">
+            <p>&lt; Built with passion by <span class="text-orange-500">Gabriel Rodriguez</span> /&gt;</p>
+            <p class="mt-2 text-sm">© 2025 All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- Dialogs Section -->
+    <section>
+        <!-- Stefan Walke Dialog -->
+        <div id="stefan-walke-dialog"
+            class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden slide-in-left">
+            <div class="bg-gray-900 p-8 rounded-lg max-w-xl max-h-[80vh] overflow-y-auto">
+                <h3 class="text-xl font-heading text-white">Stefan Walke</h3>
+                <div class="text-orange-500 font-mono text-sm mb-0">Engineering Manager</div>
+                <div class="text-fuchsia-400 font-mono text-sm mb-2">Actindo AG</div>
+                <div class="flex flex-col gap-4">
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">I</span> had the opportunity to work with Gabriel for over
+                        two
+                        years, during which he consistently proved
+                        himself to be a highly reliable and capable software engineer. Beyond his strong technical
+                        foundation, what stood out most was his sense of ownership. He took end-to-end responsibility
+                        for his work, communicated clearly with both internal teams and external stakeholders, and
+                        always pushed tasks through to completion.
+                    </p>
+
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">O</span>ne of his most impactful contributions was
+                        integrating a complex payment process into an
+                        already established business workflow. It was a challenging piece of work with many
+                        dependencies, and he handled it with professionalism and care.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">I</span> would confidently recommend Gabriel for any senior
+                        software engineer role. He brings solid
+                        technical skills, strong communication, and a dependable work ethic to any team.
+                    </p>
+                    <div>
+                        <button onclick="closeDialog('stefan-walke-dialog')"
+                            class="mt-4 text-orange-500 hover:text-fuchsia-400 font-mono rounded-lg border border-orange-500 hover:border-fuchsia-500 py-2 px-4 float-right">
+                            Close ✕
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Richards Dialog -->
+        <div id="richards-saji-dialog"
+            class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden slide-in-right">
+            <div class="bg-gray-900 p-8 rounded-lg max-w-xl max-h-[80vh] overflow-y-auto">
+                <div class="w-full">
+                    <h3 class="text-xl font-heading text-white">Richards Saji</h3>
+                    <div class="text-orange-500 font-mono text-sm mb-0">QA Lead</div>
+                    <div class="text-fuchsia-400 font-mono text-sm mb-2">Actindo AG</div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">I</span> had the opportunity to work with Gabriel, a
+                        dependable and collaborative Senior Backend Engineer,
+                        during our work on the Nintendo project at Actindo, including the major Payment Gateway
+                        migration initiative.
+                    </p>
+
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">N</span>oel is the kind of engineer every QA wishes to work
+                        with. His documentation is clear,
+                        thoughtful, and genuinely helpful, making it effortless to understand the flow, impacts, and
+                        expectations of each feature. He consistently provided meaningful implementation notes and
+                        straightforward testing guidance that saved time, eliminated confusion, and made the entire QA
+                        process faster and more reliable.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">O</span>ne thing that genuinely stood out: his tickets were
+                        always a pleasure to test. They were
+                        well-prepared, stable, and often passed on the first run. That level of quality doesn’t happen
+                        by accident—it reflects his strong discipline, careful thinking, and commitment to doing things
+                        right.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">B</span>eyond the technical side, Gabriel is proactive,
+                        calm
+                        under pressure, and always ready to support
+                        the team. From day one, he brought steady contribution, ownership, and maturity to the project.
+                        His communication is direct and effective, and working with him feels smooth, productive, and
+                        truly collaborative.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">N</span>oel is not just a strong backend engineer—he’s a
+                        team player who elevates everyone around him.
+                        Any team would be lucky to have him, and I highly recommend him without hesitation.
+                    </p>
+                    <div>
+                        <button onclick="closeDialog('richards-saji-dialog')"
+                            class="mt-4 text-orange-500 hover:text-fuchsia-400 font-mono rounded-lg border border-orange-500 hover:border-fuchsia-500 py-2 px-4 float-right">
+                            Close ✕
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mike Rockett -->
+        <div id="mike-rockett-dialog"
+            class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden slide-in-right">
+            <div class="bg-gray-900 p-8 rounded-lg max-w-xl max-h-[80vh] overflow-y-auto">
+                <div class="w-full">
+                    <h3 class="text-xl font-heading text-white">Mike Rockétt</h3>
+                    <div class="text-orange-500 font-mono text-sm mb-0">Lead Software Developer</div>
+                    <div class="text-fuchsia-400 font-mono text-sm mb-2">Megafreight Services</div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">N</span>oel and I worked together for nearly two years,
+                        building features to replace a legacy exports
+                        forwarding system that was being shut down. While I focused on operational functions, Gabriel
+                        concentrated on the financial side, from invoicing, to financial-system integrations, to
+                        approvals and reporting. We worked closely to ensure everything came together seamlessly, and I
+                        was impressed by the meticulous thought he put into both understanding problems and crafting
+                        their solutions.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">H</span>is work was excellent, and he developed valuable
+                        expertise and knowledge in
+                        freight forwarding – an industry that anyone seasoned enough will tell you is far from
+                        straightforward – as well as financial business functions more broadly.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">N</span>oel is an excellent backend engineer, and any team
+                        would be lucky to have him.
+                    </p>
+                </div>
+                <div>
+                    <button onclick="closeDialog('mike-rockett-dialog')"
+                        class="mt-4 text-orange-500 hover:text-fuchsia-400 font-mono rounded-lg border border-orange-500 hover:border-fuchsia-500 py-2 px-4 float-right">
+                        Close ✕
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stefan Muller Dialog -->
+        <div id="stefan-muller-dialog"
+            class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden slide-in-left">
+            <div class="bg-gray-900 p-8 rounded-lg max-w-xl max-h-[80vh] overflow-y-auto">
+                <div class="w-full">
+                    <h3 class="text-xl font-heading text-white">Stefan Müller</h3>
+                    <div class="text-orange-500 font-mono text-sm mb-0">Senior Account Director</div>
+                    <div class="text-fuchsia-400 font-mono text-sm mb-2">Thinkproject</div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">I</span>’ve had the privilege of knowing Gabriel for many
+                        years, and in that time he has consistently
+                        impressed me with his extraordinary intelligence, discipline, and integrity. Gabriel is one of
+                        the
+                        most meticulous and calculated individuals I’ve ever met. He approaches every challenge with a
+                        level of thoughtfulness and precision that is rare, and it’s no surprise that he is a member of
+                        Mensa. His analytical ability and problem-solving skills are truly exceptional.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">B</span>eyond his intellectual strengths, Gabriel possesses
+                        an
+                        extraordinary capacity for self-discipline.
+                        Having completed numerous ultramarathons, he has repeatedly demonstrated a level of commitment,
+                        resilience, and mental toughness that few people ever develop. Whether he is pursuing personal
+                        goals or taking on professional responsibilities, Gabriel approaches everything with the same
+                        relentless determination to achieve excellence.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">A</span>ny organisation would be fortunate to have someone
+                        of Gabriel’s calibre. He brings intelligence,
+                        focus, reliability, and a deep sense of purpose to everything he does. I consider myself
+                        fortunate to call him a long-time friend, and I wholeheartedly recommend him.
+                    </p>
+                    <div>
+                        <button onclick="closeDialog('stefan-muller-dialog')"
+                            class="mt-4 text-orange-500 hover:text-fuchsia-400 font-mono rounded-lg border border-orange-500 hover:border-fuchsia-500 py-2 px-4 float-right">
+                            Close ✕
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lourens dialog -->
+        <div id="lourens-nortje-dialog"
+            class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden slide-in-left">
+            <div class="bg-gray-900 p-8 rounded-lg max-w-xl max-h-[80vh] overflow-y-auto">
+                <div class="w-full">
+                    <h3 class="text-xl font-heading text-white">Lourens Nortje</h3>
+                    <div class="text-orange-500 font-mono text-sm mb-0">Managing Director</div>
+                    <div class="text-fuchsia-400 font-mono text-sm mb-2">Starbright Solutions</div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">I</span> had the pleasure of working with Gabriel as a PHP
+                        developer at our company from 2011 to 2014. He
+                        started with no PHP knowledge, but he put in the work to learn it thoroughly. In just a short
+                        time, he turned into a reliable PHP developer, handling all the skills you'd expect from someone
+                        with years on the job.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">N</span>oel always stepped up, taking charge and owning
+                        every task we gave him. He played a key part in
+                        building our development process, creating benchmarks for developers and designing assessments
+                        for new hires. He showed real leadership and drive throughout.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">O</span>n top of that, Gabriel kept pushing himself by
+                        studying while holding down his full-time role.
+                        If I had the chance to hire him again? Absolutely, without a doubt.
+                    </p>
+                    <div>
+                        <button onclick="closeDialog('lourens-nortje-dialog')"
+                            class="mt-4 text-orange-500 hover:text-fuchsia-400 font-mono rounded-lg border border-orange-500 hover:border-fuchsia-500 py-2 px-4 float-right">
+                            Close ✕
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Alain dialog -->
+        <div id="alain-jacquet-dialog"
+            class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden slide-in-right">
+            <div class="bg-gray-900 p-8 rounded-lg max-w-xl max-h-[80vh] overflow-y-auto">
+                <div class="w-full">
+                    <h3 class="text-xl font-heading text-white">Alain Jacquet</h3>
+                    <div class="text-orange-500 font-mono text-sm mb-0">Managing Director</div>
+                    <div class="text-fuchsia-400 font-mono text-sm mb-2">SABEeX</div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">W</span>hen I began development of the SABEeX Delivery
+                        Management System, I engaged Gabriel Rodriguez as an energetic
+                        and skilled developer. During his time with SABEeX, he built the original platform that is today
+                        one of
+                        the world's leading Online Procurement Platforms.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">H</span>is insight into the architecture design and robust
+                        construction helped to establish a legacy. He went on to build services other world-renowned
+                        platforms
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        <span class="text-2xl font-semibold">H</span>e's a legend!
+                    </p>
+                    <div>
+                        <button onclick="closeDialog('alain-jacquet-dialog')"
+                            class="mt-4 text-orange-500 hover:text-fuchsia-400 font-mono rounded-lg border border-orange-500 hover:border-fuchsia-500 py-2 px-4 float-right">
+                            Close ✕
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NPGW dialog -->
+        <div id="nintendo-payment-gateway-dialog"
+            class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden">
+            <div class="bg-gray-900 p-8 rounded-lg max-w-xl max-h-[80vh] overflow-y-auto">
+                <h3 class="text-2xl font-heading text-white">Nintendo Payment Gateway</h3>
+                <div class="text-orange-500 font-mono text-sm">Actindo AG, Germany</div>
+                <div class="flex flex-col gap-4 mt-4">
+                    <p class="text-gray-300 leading-relaxed">
+                        <span class="text-2xl font-semibold">N</span>intendo was one of our larger customers, and they
+                        had made the decision to move from the Adyen
+                        payment gateway to their own in-house solution. This required integrating a complex payment
+                        process
+                        into an already established business workflow. It was a challenging piece of work with many
+                        dependencies.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        <span class="text-2xl font-semibold">T</span>his involved developing new API integration using
+                        REST and OAUTH, setting up test cases, and then implementing
+                        into a workflow to automate the processes.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        <span class="text-2xl font-semibold">C</span>lient communication was key, as they were
+                        developing their API in parallel.
+                    </p>
+                    <h3 class="text-xl font-heading">Tech Used</h3>
+                    <ul class="list-disc list-inside text-gray-300">
+                        <li class="text-gray-300">PHP Backend (with HHVM)</li>
+                        <li class="text-gray-300">REST Api Integrations</li>
+                        <li class="text-gray-300">Polymer Frontend</li>
+                        <li class="text-gray-300">MySQL Database</li>
+                        <li class="text-gray-300">Linux Server Deployment</li>
+                    </ul>
+                    <div>
+                        <button onclick="closeDialog('nintendo-payment-gateway-dialog')"
+                            class="mt-4 text-orange-500 hover:text-fuchsia-400 font-mono rounded-lg border border-orange-500 hover:border-fuchsia-500 py-2 px-4 float-right">
+                            Close ✕
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- mf-dialog -->
+        <div id="mf-dialog" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden">
+            <div class="bg-gray-900 p-8 rounded-lg max-w-xl max-h-[80vh] overflow-y-auto">
+                <h3 class="text-2xl font-heading text-white">Netsuite Integrations</h3>
+                <div class="text-orange-500 font-mono text-sm">Megafreight Services, South Africa</div>
+                <div class="flex flex-col gap-4 mt-4">
+                    <p class="text-gray-300 leading-relaxed">
+                        <span class="text-2xl font-semibold">D</span>esigned and implemented multiple NetSuite API
+                        integrations using the SOAP protocol in PHP to support core finance operations within a
+                        freight-forwarding environment. The integrations enabled secure, reliable bi-directional data
+                        exchange between internal systems and NetSuite, including customer financials, invoices,
+                        disbursements, and ledger-related data.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        <span class="text-2xl font-semibold">D</span>eveloped a disbursement control module to enforce
+                        financial governance across freight operations, ensuring that supplier payments, client charges,
+                        and operational costs were validated against predefined rules and approval thresholds before
+                        execution. This significantly reduced manual reconciliation, improved auditability, and
+                        minimized financial risk.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        <span class="text-2xl font-semibold">I</span>n parallel, built a management-level finance
+                        dashboard that aggregated NetSuite data into a high-level overview of client financial health.
+                        This included real-time visibility into balances, outstanding invoices, cash flow exposure, and
+                        client profitability, enabling senior stakeholders to make informed strategic and operational
+                        decisions without requiring direct access to NetSuite.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        <span class="text-2xl font-semibold">T</span>he solution emphasized data integrity,
+                        fault-tolerant SOAP communication, and clear separation between integration logic and business
+                        rules, resulting in a scalable and maintainable financial integration layer.
+                    </p>
+                    <h3 class="text-xl font-heading">Tech Used</h3>
+                    <ul class="list-disc list-inside text-gray-300">
+                        <li class="text-gray-300">PHP & Laravel</li>
+                        <li class="text-gray-300">SOAP Api Integrations</li>
+                        <li class="text-gray-300">VueJS Frontend</li>
+                        <li class="text-gray-300">PostgreSQL Database</li>
+                        <li class="text-gray-300">AWS Server Deployments</li>
+                    </ul>
+                    <div>
+                        <button onclick="closeDialog('mf-dialog')"
+                            class="mt-4 text-orange-500 hover:text-fuchsia-400 font-mono rounded-lg border border-orange-500 hover:border-fuchsia-500 py-2 px-4 float-right">
+                            Close ✕
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Asterk voip dialog -->
+        <div id="asterisk-VoIP-dialog"
+            class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden">
+            <div class="bg-gray-900 p-8 rounded-lg max-w-xl max-h-[80vh] overflow-y-auto">
+                <h3 class="text-2xl font-heading text-white">Hosted VoIP Switchboard</h3>
+                <div class="text-orange-500 font-mono text-sm">Switch Telecom, South Africa</div>
+                <div class="flex flex-col gap-4 mt-4">
+                    <p class="text-gray-300 leading-relaxed">
+                        <span class="text-2xl font-semibold">D</span>esigned and built a fully operational hosted VoIP
+                        switchboard solution using the <a href="https://www.asterisk.org/" target="_blank"
+                            class="text-orange-500 hover:underline">Asterisk</a> platform, this
+                        allowed users to set configuration settings from a web frontend which was built using PHP and
+                        AngularJS.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        <span class="text-2xl font-semibold">F</span>eatures included call routing, voicemail, IVR
+                        menus, call recording, and user management.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        <span class="text-2xl font-semibold">T</span>he system was deployed on Linux servers and
+                        integrated with SIP trunk providers for external calling.
+                    </p>
+                    <h3 class="text-xl font-heading">Tech Used</h3>
+                    <ul class="list-disc list-inside text-gray-300">
+                        <li class="text-gray-300">Asterisk PBX</li>
+                        <li class="text-gray-300">PHP Backend</li>
+                        <li class="text-gray-300">AngularJS Frontend</li>
+                        <li class="text-gray-300">MySQL Database</li>
+                        <li class="text-gray-300">Linux Server Deployment</li>
+                    </ul>
+                    <div>
+                        <button onclick="closeDialog('asterisk-VoIP-dialog')"
+                            class="mt-4 text-orange-500 hover:text-fuchsia-400 font-mono rounded-lg border border-orange-500 hover:border-fuchsia-500 py-2 px-4 float-right">
+                            Close ✕
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nift Dialog -->
+        <div id="nift-dialog" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden">
+            <div class="bg-gray-900 p-8 rounded-lg max-w-xl max-h-[80vh] overflow-y-auto">
+                <h3 class="text-2xl font-bold text-white">Nift - New Car Quotes</h3>
+                <div class="text-orange-500 font-mono text-sm">Nift.co.za, South Africa</div>
+                <div class="flex flex-col gap-4 mt-4">
+                    <p class="text-gray-300 leading-relaxed">
+                        <span class="text-2xl font-semibold">F</span>ounded and developed a New car aggregation website
+                        with a friend of mine. The site helped a new car
+                        buyer get the best quotes on a new car by allowing the user to find the car they wanted to buy
+                        from car
+                        dealerships on our network within a user specified area.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        <span class="text-2xl font-semibold">W</span>e had grown our dealership network to over 150 and
+                        were starting to get some small amounts of traction
+                        but really needed
+                        funding to take it further.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        <span class="text-2xl font-semibold">A</span>BSA, one of the big 4 banks in South Africa, were
+                        really interested and through a series of investor
+                        meetings we worked our way up to the CIO pitching to the
+                        Barclays Africa seeker fund. Unfortunately, the bank had a change in direction and did not award
+                        us the
+                        funding.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        <span class="text-2xl font-semibold">C</span>areers and personal life proved too much for the
+                        idea and it was shut down.
+                    </p>
+                    <h3 class="text-xl font-heading">Tech Used</h3>
+                    <ul class="list-disc list-inside text-gray-300">
+                        <li>PHP 5.6 with a custom built MVC framework</li>
+                        <li>MySQL Database</li>
+                        <li>JQuery on the Frontend</li>
+                        <li>Shared Hosting with a bit of a hack for Cron runs</li>
+                        <li>Google Maps API integration</li>
+                    </ul>
+                    <div>
+                        <button onclick="closeDialog('nift-dialog')"
+                            class="mt-4 text-orange-500 hover:text-fuchsia-400 font-mono rounded-lg border border-orange-500 hover:border-fuchsia-500 py-2 px-4 float-right">
+                            Close ✕
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Scroll animation observer
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all animated elements
+        document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right, .scale-in, .stack-layer').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const el = document.getElementById("role-badge");
+
+            const base = "> Software";
+            const firstEnding = " Engineer";
+            const secondEnding = " Problem Solver";
+
+            let currentEnding = firstEnding;
+            let index = 0;
+            let deleting = false;
+
+            function randomDelay(base = 70, variance = 50) {
+                return base + Math.random() * variance;
+            }
+
+            function tick() {
+                const fullText = base + currentEnding;
+
+                if (!deleting) {
+                    // Typing forward
+                    el.textContent = fullText.slice(0, index + 1);
+                    index++;
+
+                    if (index === fullText.length) {
+                        setTimeout(() => {
+                            deleting = true;
+                            tick();
+                        }, 900);
+                        return;
+                    }
+
+                    setTimeout(tick, randomDelay());
+                } else {
+                    // Backspacing only the ending, leave base intact
+                    const minimum = base.length;
+
+                    el.textContent = fullText.slice(0, Math.max(index - 1, minimum));
+                    index--;
+
+                    if (index === minimum) {
+                        // Switch ending
+                        deleting = false;
+                        currentEnding =
+                            currentEnding === firstEnding
+                                ? secondEnding
+                                : firstEnding;
+
+                        setTimeout(tick, 500);
+                        return;
+                    }
+
+                    setTimeout(tick, randomDelay(50, 30));
+                }
+            }
+
+            el.textContent = "";
+            tick();
+        });
+
+        // dialog
+        function openDialog(id) {
+            document.getElementById(id).classList.remove("hidden");
+        }
+
+        function closeDialog(id) {
+            document.getElementById(id).classList.add("hidden");
+        }
+    </script>
+
+
+</body>
+
+</html>

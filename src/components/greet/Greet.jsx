@@ -18,12 +18,12 @@ export default function Greet() {
                             </div>
                             <div className="flex flex-wrap justify-center w-72 m-auto text-center font-sans hidden md:flex gap-x-1 gap-y-1">
 
-                                <span className="px-4 py-1 text-xs text-fuchsia-500 min-w-0">Problem Solving</span>
-                                <span className="px-4 py-1 text-xs text-orange-500 min-w-0">Communication</span>
-                                <span className="px-4 py-1 text-xs text-orange-600 min-w-0">Ownership</span>
-                                <span className="px-4 py-1 text-xs text-fuchsia-500 min-w-0">Leadership</span>
-                                <span className="px-4 py-1 text-xs text-fuchsia-600 min-w-0">Discipline</span>
-                                <span className="px-4 py-1 text-xs text-orange-600 min-w-0">Pragmatic</span>
+                                <span className="px-4 py-1 text-xs text-accent min-w-0">Problem Solving</span>
+                                <span className="px-4 py-1 text-xs text-primary min-w-0">Communication</span>
+                                <span className="px-4 py-1 text-xs text-primary min-w-0">Ownership</span>
+                                <span className="px-4 py-1 text-xs text-accent min-w-0">Leadership</span>
+                                <span className="px-4 py-1 text-xs text-accent min-w-0">Discipline</span>
+                                <span className="px-4 py-1 text-xs text-primary min-w-0">Pragmatic</span>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ export default function Greet() {
                             </span>
                         </h1>
                         <div className="flex gap-4 justify-center md:justify-start mb-12 flex-wrap">
-                            <span className="font-departure-mono px-4 py-2 bg-orange-500 bg-opacity-10 text-orange-500 rounded-lg border border-orange-500 border-opacity-30">
+                            <span className="font-departure-mono px-4 py-2 bg-primary bg-opacity-10 text-primary rounded-lg border border-primary border-opacity-30">
                                 Full-Stack Developer
                             </span>
 
@@ -52,7 +52,7 @@ export default function Greet() {
 
                         <div className="flex gap-4 justify-center md:justify-start mb-12 flex-wrap text-center">
                             <div className="is-uppercase p-0">
-                                <p className="text-5xl md:text-6xl font-heading text-fuchsia-400 glow animate-pulse ">
+                                <p className="text-5xl md:text-6xl font-heading text-accent glow animate-pulse ">
                                     +14
                                 </p>
                                 <span className="text-white">Years of experience</span>
@@ -62,7 +62,7 @@ export default function Greet() {
                         <div className="flex gap-4 justify-center md:justify-start flex-wrap">
                             <a
                                 href="#about"
-                                className="px-8 py-3 bg-gradient-to-r from-orange-500 to-fuchsia-500 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-orange-500/50 transition-all duration-300 transform hover:scale-105"
+                                className="px-8 py-3 bg-gradient-to-r from-primary to-accent text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105"
                             >
                                 View My Work
                             </a>
@@ -71,8 +71,12 @@ export default function Greet() {
                                 href="/cv-en.pdf"
                                 target="_blank"
                                 download
-                                className="flex items-center px-8 py-3 text-white border border-default-medium font-semibold rounded-full hover:shadow-lg hover:shadow-orange-500/50 transition-all duration-300 transform hover:scale-105"
+                                className="flex items-center px-8 py-3 text-white border border-default-medium font-semibold rounded-full hover:shadow-lg hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105"
                             >
+                                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                </svg>
                                 Resume
                             </a>
                         </div>
