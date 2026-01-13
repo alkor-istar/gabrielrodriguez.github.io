@@ -1,6 +1,7 @@
 import { recommendations } from "../../data/recomendations";
 import RecommendationCard from "./RecomendationCard";
 import { useInView } from "../../hooks/useInView";
+import Reveal from "../common/Reveal";
 
 export default function RecommendationsSection() {
     const { ref, inView } = useInView < HTMLDivElement > ({
@@ -12,14 +13,16 @@ export default function RecommendationsSection() {
             <div className="max-w-6xl mx-auto">
                 {/* Header */}
                 <div >
-                    <h2 className="text-4xl md:text-5xl font-heading text-white mb-4 text-center">
-                        Recommendations
-                    </h2>
+                    <Reveal>
+                        <h2 className="text-4xl md:text-5xl font-heading text-white mb-4 text-center">
+                            Recommendations
+                        </h2>
 
-                    <p className="text-gray-500 text-center mb-16 max-w-2xl mx-auto">
-                        Feedback from people I’ve worked with across different teams
-                        and industries.
-                    </p>
+                        <p className="text-gray-500 text-center mb-16 max-w-2xl mx-auto">
+                            Feedback from people I’ve worked with across different teams
+                            and industries.
+                        </p>
+                    </Reveal>
                 </div>
 
                 {/* Cards */}
@@ -29,11 +32,14 @@ export default function RecommendationsSection() {
                             key={rec.id}
 
                         >
-                            <RecommendationCard recommendation={rec} />
+                            <Reveal fadeType="slide-in-left">
+                                <RecommendationCard recommendation={rec} />
+                            </Reveal>
                         </div>
+
                     ))}
                 </div>
             </div>
-        </section>
+        </section >
     );
 }

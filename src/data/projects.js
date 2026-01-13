@@ -13,7 +13,7 @@ export const projects = [
         description:
             "Automated trading system with risk management, exchange adapters and graceful shutdown handling.",
         tags: ["Python", "APIs", "Concurrency", "Trading"],
-        github: "https://github.com/alkor-istar/powerlaw-bot",
+        github: "https://github.com/alkor-istar/powerlaw_bot",
     },
     {
         id: "portfolio",

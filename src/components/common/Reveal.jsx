@@ -5,6 +5,7 @@ import { useInView } from "../../hooks/useInView";
 export default function Reveal({
     children,
     className = "",
+    fadeType = "fade-in",
     once = true,
 }) {
     const { ref, inView } = useInView({ once });
@@ -12,7 +13,7 @@ export default function Reveal({
     return (
         <div
             ref={ref}
-            className={`fade-in ${inView ? "visible" : ""} ${className}`}
+            className={`${fadeType} ${inView ? "visible" : ""} ${className}`}
         >
             {children}
         </div>
